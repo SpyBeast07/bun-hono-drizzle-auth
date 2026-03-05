@@ -66,13 +66,3 @@ export const menuItems = pgTable("menu_items", {
     available: boolean("available").notNull().default(true),
     createdAt: timestamp("createdAt").notNull().defaultNow(),
 });
-
-// Direct:
-// bun run drizzle-kit push
-
-
-// Generate migrations:
-// npx drizzle-kit generate
-
-// Apply migrations:
-// npx drizzle-kit migrate

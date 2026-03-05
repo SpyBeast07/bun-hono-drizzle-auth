@@ -13,7 +13,6 @@ export const auth = betterAuth({
         enabled: true,
     },
     session: {
-        strategy: "database",
     },
     plugins: [
         bearer()

@@ -16,7 +16,7 @@ app.use('*', cors({
 }))
 
 // Root route
-app.get('/', (c) => c.text('Is It Open? – JKLU API'))
+app.get('/', (c) => c.text('Is It Open? - JKLU API'))
 
 // Mount modular routes
 app.route('/api/auth', authRoutes)

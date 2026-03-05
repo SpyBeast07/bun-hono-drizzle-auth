@@ -8,7 +8,7 @@
 	<div class="container mx-auto px-4 h-16 flex items-center justify-between">
 		<a href="/" class="flex items-center gap-2 font-bold text-xl text-primary">
 			<Store class="w-6 h-6" />
-			<span>Is It Open? – JKLU</span>
+			<span>Is It Open? - JKLU</span>
 		</a>
 
 		<div class="flex items-center gap-4">

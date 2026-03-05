@@ -27,7 +27,11 @@ async function seed() {
         statusMessage: 'Fresh snacks available now!',
     }).returning()
 
-    console.log('✅ Business created:', business.name)
+    if (business) {
+        console.log('✅ Business created:', business.name)
+    } else {
+        console.log('⚠️ Business not created (returning was empty)')
+    }
     console.log('-----------------------------------')
     console.log('Login Email: owner@example.com')
     console.log('Login Password: password123')
